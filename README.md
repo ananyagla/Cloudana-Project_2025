@@ -1,4 +1,4 @@
-<h1 align="center">☁️ Cloud Cost Optimizer</h1>
+<h1 align="center">☁️ Cloudana Cost Optimizer</h1>
 
 <p align="center">
   <b>A smart cloud-based web app to monitor, analyze, and <br>
@@ -53,7 +53,7 @@ We built a **cloud-based web app** that:
 Clone the repository
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/cloud-cost-optimizer.git
+   git clone https://github.com/ananyagla/cloud-cost-optimizer.git
    cd cloud-cost-optimizer 
 
 2. **Go to the backend folder**
