@@ -12,12 +12,11 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/AWS%20Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white" />
-  <img src="https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Amazon%20CloudWatch-FF4F8B?style=for-the-badge&logo=amazoncloudwatch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Amazon%20EventBridge-8C4FFF?style=for-the-badge&logo=amazoneventbridge&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS%20Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white" />
+  <img src="https://img.shields.io/badge/Amazon%20CloudWatch-FF4F8B?style=for-the-badge&logo=amazoncloudwatch&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 </p>
 
 ---
@@ -38,12 +37,12 @@ There is a need for a **cost optimization system** that:
 ## 💡 Our Solution
 We built a **cloud-based web app** that:  
 
-- 📊 Fetches **live billing reports** using **Cost and Usage Reports (CUR)** + **Athena Free Tier**  
-- 💰 Reviews **real costs vs AWS Pricing API standard rates**  
-- 🎯 Lets users **set budgets** and alerts with **custom logic (no paid API)**  
-- 💤 Identifies **idle/unutilized EC2 resources** using **CloudWatch Free Tier**  
-- ⚡ Detects **anomalies** using lightweight ML (Pandas stats)  
-- 🤖 Automates cost-saving actions (e.g., stopping EC2 instances) via **AWS Lambda Free Tier**  
+-  Fetches **live billing reports** using **Cost and Usage Reports (CUR)** + **Athena Free Tier**  
+-  Reviews **real costs vs AWS Pricing API standard rates**  
+-  Lets users **set budgets** and alerts with **custom logic (no paid API)**  
+-  Identifies **idle/unutilized EC2 resources** using **CloudWatch Free Tier**  
+-  Detects **anomalies** using lightweight ML (Pandas stats)  
+-  Automates cost-saving actions (e.g., stopping EC2 instances) via **AWS Lambda Free Tier**  
 
 ✨ All done with **zero extra AWS cost** beyond actual resource usage.  
 
@@ -73,11 +72,11 @@ Clone the repository
 - Lucide icons + Google Fonts  
 
 ### ⚙️ Backend  
+- **MongoDB Atlas** – store structured anomaly reports & query results
 - **AWS Lambda (Node.js/Python)** – APIs & automation  
-- **Amazon EventBridge** – scheduled tasks  
-- **CloudWatch** – fetch idle resource metrics  
+- **Amazon EventBridge** – scheduled tasks   
 - **DynamoDB** – store budgets & anomaly history  
-- **Momento Cache (Free)** – cache CUR query results  
+- **Momento Cache (Free)** – cache CUR query results 
 - **Pandas (Python)** – anomaly detection logic  
 
 ---
@@ -135,6 +134,6 @@ README.md
 ---
 
 ## 🌐 Browser Compatibility  
-✅ Chrome 85+ | ✅ Firefox 78+ | ✅ Safari 14+ | ✅ Edge 85+  
+✅ Chrome  | ✅ Firefox | ✅ Safari  | ✅ Edge   
 
 ---
